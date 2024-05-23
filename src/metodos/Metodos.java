@@ -5,8 +5,12 @@
  */
 package metodos;
 
+import java.awt.List;
 import java.text.DecimalFormat;
+import java.util.ArrayList;
 import java.util.Scanner;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  *
@@ -18,10 +22,8 @@ public class Metodos {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Menu m = new Menu();
+          Menu m = new Menu();
         m.setVisible(true);
-        
-        
-        
+       
     }
 }
